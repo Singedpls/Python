@@ -1,0 +1,11 @@
+x = int(input("Digite X: "))
+y = int(input("Digite Y: "))
+
+if x%2 == 0 and y%2 == 0:
+    print("Ambos valores son pares!")
+elif x%2 == 0 and y%2 != 0:
+    print("X es Par \nY es Impar")
+elif x%2 != 0 and y%2 == 0:
+    print("X es Impar \nY es Par")
+else:
+    print("Ambos valores son impares!")
