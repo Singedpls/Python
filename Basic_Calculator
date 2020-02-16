@@ -1,0 +1,21 @@
+num1 = float(input("Primer Dígito: "))
+num2 = float(input("Primer Dígito: "))
+
+tecla = input("Escriba la inicial de la operación que desea: ")
+teclado = tecla.upper()
+
+if teclado == 'S':
+    suma=num1+num2
+    print(f"La Suma es: {suma}")
+elif teclado == 'R':
+    resta=num1-num2
+    print(f"La Resta es: {resta}")
+elif teclado == 'M':
+    mult=num1*num2
+    print(f"La Resta es: {mult}")
+elif teclado == 'D':
+    div=num1/num2
+    print(f"La Resta es: {div}")
+else:
+    print("No se encuentra de las opciones!")
+    exit()
